@@ -47,11 +47,11 @@ p {
 }
 
 button {
-  width: 100%; /* Make the button full-width */
+  width: 50%; /* Make the button full-width */
   box-sizing: border-box;
   background-color: #e6b800;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 16px;
   cursor: pointer;
   border: none;
@@ -66,7 +66,7 @@ button {
 
 /* Style the audio player controls */
 audio {
-  width: 100%;
+  width: 50%;
   margin-top: 20px;
 }
 
