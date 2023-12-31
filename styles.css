@@ -3,7 +3,7 @@ body {
   color: #fff;
   text-align: center;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +11,8 @@ body {
 }
 
 .container {
+  max-width: 80%;
+  margin: 0 auto;
   max-width: 1000px;
   position: relative;
 }
@@ -45,6 +47,8 @@ p {
 }
 
 button {
+  width: 100%; /* Make the button full-width */
+  box-sizing: border-box;
   background-color: #e6b800;
   color: #fff;
   padding: 10px 20px;
@@ -79,4 +83,11 @@ audio::-webkit-media-controls-pause-button {
 /* Remove the default play button */
 audio::-webkit-media-controls-start-playback-button {
   display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+  h1 {
+    font-size: 1.2em;
+  }
 }
