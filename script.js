@@ -5,8 +5,6 @@
     const answer1 = document.getElementById("answer1").value.toLowerCase();
     const answer2 = document.getElementById("answer2").value.toLowerCase();
     const answer3 = document.getElementById("answer3").value.toLowerCase();
-    
-    alert(`Answer 1: ${answer1}, Answer 2: ${answer2}, Answer 3: ${answer3}`);
 
     // You can customize the correct answers
     const correctAnswer1 = "yeh dosti hum nahin todenge";
